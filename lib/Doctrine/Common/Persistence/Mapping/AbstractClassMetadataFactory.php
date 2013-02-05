@@ -47,12 +47,12 @@ abstract class AbstractClassMetadataFactory implements ClassMetadataFactory
     /**
      * @var \Doctrine\Common\Cache\Cache
      */
-    private $cacheDriver;
+    protected $cacheDriver;
 
     /**
      * @var array
      */
-    private $loadedMetadata = array();
+    protected $loadedMetadata = array();
 
     /**
      * @var bool
