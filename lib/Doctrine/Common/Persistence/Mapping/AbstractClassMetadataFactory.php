@@ -52,7 +52,7 @@ abstract class AbstractClassMetadataFactory implements ClassMetadataFactory
     /**
      * @var array
      */
-    private $loadedMetadata = array();
+    protected $loadedMetadata = array();
 
     /**
      * @var bool
